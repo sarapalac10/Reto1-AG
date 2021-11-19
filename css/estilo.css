@@ -1,0 +1,41 @@
+#logo1 {
+    width: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#convertir{
+    border-radius: 5px;
+    background-color: rgb(15, 161, 15);
+    color: white;
+}
+
+#validacion{
+    border-radius: 5px;
+    background-color: pink;
+    color: white; 
+    border: solid 1px blue;
+    text-align: center;
+    width: 90%
+}
+
+#monedaInicio , #monedaFinal{
+    border-radius: 5px;
+    background-color: rgb(141, 139, 139);
+    color: black;
+    margin: 0 0 10px 0
+}
+
+#dinero{
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+}
+
+.contenedor{
+    border: solid 1px red;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(151, 146, 146, 0.39);
+    text-align: center;
+}
