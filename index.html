@@ -13,39 +13,31 @@
     
     <img src="img/image1.png" alt="logo" id="logo1">
     <br>
-    <input type="float" id="dinero"  value="Cantidad de dinero:" min=0/>
+    <input type="float" id="dinero"  placeholder="Cantidad de dinero:" />
     
 
     <div>
-        <select name="moneda1" id="monedaInicio">
-            <option selected value="0"> Elige tu moneda </option>
-            <option value="1">Dólar</option> 
-            <option value="2">Peso Mexicano/option> 
-            <option value="3">Peso colombiano</option>
-            <option value="4">Euro</option> 
-            <option value="5">Libra estrerlina</option> 
+        <select id="selectMon1" class="tipoMoneda">
+            <option>Elige tu moneda</option>
+        </select>
+          
+        <select id="selectMon2" class="tipoMoneda">
+            <option>Elige tu moneda</option>
         </select>
 
-        <select name="moneda2" id="monedaFinal" value="Elige tu moneda">
-            <option selected value="0"> Elige tu moneda </option>
-            <option value="6">Dólar</option> 
-            <option value="7">Peso Mexicano/option> 
-            <option value="8">Peso colombiano</option>
-            <option value="9">Euro</option> 
-            <option value="10">Libra estrerlina</option> 
-        </select>
+        <button onclick="convertir()" id="convertir">Convertir</button>
 
-        <input type="button" value="Convertir" id="convertir" />
     </div>
 
-    <div>
-        <input type="button" value="Validaciones del formulario" id="validacion" />
+        <div>
+        <button onclick="validar()" id="validacion">Validaciones del formulario</button>
     </div>
     
 </div>
 
       
-<!--       <script src="cajero.js">
-      </script>   --> 
+<script src="JS/conversor.js"
+</script>
+
 </body>
 </html>

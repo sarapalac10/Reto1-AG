@@ -15,12 +15,17 @@
     border-radius: 5px;
     background-color: pink;
     color: white; 
-    border: solid 1px blue;
+    border: solid 1px rgb(255, 0, 221);
     text-align: center;
     width: 90%
 }
 
-#monedaInicio , #monedaFinal{
+#validacion:hover , #validacion:active {
+    background-color: rgb(231, 133, 231);
+    transform:scale(1.15);
+}
+
+.tipoMoneda{
     border-radius: 5px;
     background-color: rgb(141, 139, 139);
     color: black;
@@ -33,7 +38,6 @@
 }
 
 .contenedor{
-    border: solid 1px red;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(151, 146, 146, 0.39);
