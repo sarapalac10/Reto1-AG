@@ -37,11 +37,9 @@ function validar() {
 
 //Conversión
 function convertir() {
-    alert('Se ha dado clic al botón convertir :D ');
-
+    // alert('Se ha dado clic al botón convertir :D ');
     Resultado(input);
   }
-
 
 
 function Resultado(){
@@ -58,83 +56,83 @@ function Resultado(){
     //Comparar el valor de entrada y de salida y usar la fórmula
 
   if (monedaInicioValue === "Dolar" && monedaFinalValue === "Dolar"){
-    console.log(parametro + "USD");
+    alert("El valor es : " + parametro + " USD");
   }
   else if (monedaInicioValue === "Dolar" && monedaFinalValue === "Peso Mexicano") {
-    console.log((parametro * 20.842209) +"MX");
+    alert("El valor es : " +(parametro * 20.842209) +"MX");
   }
   else if (monedaInicioValue === "Dolar" && monedaFinalValue === "Peso Colombiano"){
-    console.log((parametro * 3909.2656) +"COP");
+    alert("El valor es : " +(parametro * 3909.2656) +"COP");
   }
   else if (monedaInicioValue === "Dolar" && monedaFinalValue === "Euro"){
-    console.log((parametro * 0.88636394)+"EUR");
+    alert("El valor es : " +(parametro * 0.88636394)+"EUR");
   }
   else if (monedaInicioValue === "Dolar" && monedaFinalValue === "Libra Esterlina"){
-    console.log((parametro * 0.74382481)+"GBP");
+    alert("El valor es : " +(parametro * 0.74382481)+"GBP");
   }
 
   if (monedaInicioValue === "Peso Mexicano" && monedaFinalValue === "Dolar"){
-    console.log(parametro * 0.04797956 + "USD");
+    alert("El valor es : " +(parametro * 0.04797956) + "USD");
   }
   else if (monedaInicioValue === "Peso Mexicano" && monedaFinalValue === "Peso Mexicano") {
-    console.log(parametro +"MXN");
+    alert("El valor es : " +parametro +"MXN");
   }
   else if (monedaInicioValue === "Peso Mexicano" && monedaFinalValue === "Peso Colombiano"){
-    console.log((parametro * 187.56423) +"COP");
+    alert("El valor es : " +(parametro * 187.56423) +"COP");
   }
   else if (monedaInicioValue === "Peso Mexicano" && monedaFinalValue === "Euro"){
-    console.log((parametro * 0.042527264)+"EUR");
+    alert("El valor es : " +(parametro * 0.042527264)+"EUR");
   }
   else if (monedaInicioValue === "Peso Mexicano" && monedaFinalValue === "Libra Esterlina"){
-    console.log((parametro * 0.035688532)+"GBP");
+    alert("El valor es : " +(parametro * 0.035688532)+"GBP");
   }
 
   if (monedaInicioValue === "Peso Colombiano" && monedaFinalValue === "Dolar"){
-    console.log(parametro * 0.00025580336 + "USD");
+    alert("El valor es : " +(parametro * 0.00025580336) + "USD");
   }
   else if (monedaInicioValue === "Peso Colombiano" && monedaFinalValue === "Peso Mexicano") {
-    console.log((parametro *0.005331507) +"MXN");
+    alert("El valor es : " +(parametro *0.005331507) +"MXN");
   }
   else if (monedaInicioValue === "Peso Colombiano" && monedaFinalValue === "Peso Colombiano"){
-    console.log(parametro + "COP");
+    alert("El valor es : " +parametro + "COP");
   }
   else if (monedaInicioValue === "Peso Colombiano" && monedaFinalValue === "Euro"){
-    console.log((parametro * 0.0002267344)+"EUR");
+    alert("El valor es : " +(parametro * 0.0002267344)+"EUR");
   }
   else if (monedaInicioValue === "Peso Colombiano" && monedaFinalValue === "Libra Esterlina"){
-    console.log((parametro * 0.00019027366)+"GBP");
+    alert("El valor es : " +(parametro * 0.00019027366)+"GBP");
   }
 
   if (monedaInicioValue === "Euro" && monedaFinalValue === "Dolar"){
-    console.log((parametro* 1.1282071) + "USD")
+    alert("El valor es : " +(parametro* 1.1282071) + "USD")
   }
   else if (monedaInicioValue === "Euro" && monedaFinalValue === "Peso Mexicano") {
-    console.log((parametro * 23.514359) +"MXN");
+    alert("El valor es : " +(parametro * 23.514359) +"MXN");
   }
   else if (monedaInicioValue === "Euro" && monedaFinalValue === "Peso Colombiano"){
-    console.log((parametro * 4410.4583) +"COP");
+    alert("El valor es : " +(parametro * 4410.4583) +"COP");
   }
   else if (monedaInicioValue === "Euro" && monedaFinalValue === "Euro"){
-    console.log(parametro+"EUR");
+    alert("El valor es : " +parametro+"EUR");
   }
   else if (monedaInicioValue === "Euro" && monedaFinalValue === "Libra Esterlina"){
-    console.log((parametro * 0.83919184)+"GBP");
+    alert("El valor es : " +(parametro * 0.83919184)+"GBP");
   }
 
   if (monedaInicioValue === "Libra Esterlina" && monedaFinalValue === "Dolar"){
-    console.log((parametro* 1.3443943) + "USD")
+    alert("El valor es : " +(parametro* 1.3443943) + "USD")
   }
   else if (monedaInicioValue === "Libra Esterlina" && monedaFinalValue === "Peso Mexicano") {
-    console.log((parametro * 28.020147) +"MXN");
+    alert("El valor es : " +(parametro * 28.020147) +"MXN");
   }
   else if (monedaInicioValue === "Libra Esterlina" && monedaFinalValue === "Peso Colombiano"){
-    console.log((parametro * 5255.5841) +"COP");
+    alert("El valor es : " +(parametro * 5255.5841) +"COP");
   }
   else if (monedaInicioValue === "Libra Esterlina" && monedaFinalValue === "Euro"){
-    console.log((parametro*1.1916186)+"EUR");
+    alert("El valor es : " +(parametro*1.1916186)+"EUR");
   }
   else if (monedaInicioValue === "Libra Esterlina" && monedaFinalValue === "Libra Esterlina"){
-    console.log(parametro +"GBP");
+    alert("El valor es : " +parametro +"GBP");
   }
 
 
